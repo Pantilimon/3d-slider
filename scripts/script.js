@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     character1: {
       description: 'Утратив Искру, мы лишились возможности вернуть нашу планету к жизни. Но судьба в награду подарила нам новый мир, который мы назовём своим домом. Теперь мы живём среди людей, скрывая свое истинное лицо, и тайно за ними наблюдаем… Ждём, защищаем. Я увидел, на какую отвагу они способны, и хотя нас разделяют миры, с ними, как и с нами всё не так.',
       head: 'Огонь - программист', 
-      image: 'public/img/fireman.png',
-      useBut: 'public/img/But/ButFire.svg',
-      But: 'public/img/But/fire.svg',
+      image: 'UGF2024/img/fireman.png',
+      useBut: 'UGF2024/img/But/ButFire.svg',
+      But: 'UGF2024/img/But/fire.svg',
       vec: 'btn1',
     },
     character2: {

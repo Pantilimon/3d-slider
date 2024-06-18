@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/3d-slider/',  // Замените имя_репозитория на имя вашего репозитория
+  base: '/UGF2024/',  // Замените на новое имя репозитория
   build: {
     outDir: 'dist',
   },

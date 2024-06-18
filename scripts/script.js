@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (selectedCard === card) {
         // Если уже выбран, снимаем выбор
-        selectedCard.querySelector('.button-img').src = characterData[selectedCharacter].But;
+        selectedCard.querySelector('.button-img').src = characterData[selectedCharacter].But + '?t=' + new Date().getTime();;
         selectedCard.querySelector('.button-img').classList.toggle('shadow')
         selectedCard.classList.remove('selected');
         headDescription.textContent = 'Общая информация';
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (selectedCard) {
           document.querySelector(`.${characterData[selectedCard.dataset.character].vec}`).classList.toggle('active')
           selectedCard.querySelector('.button-img').classList.toggle('shadow')
-          selectedCard.querySelector('.button-img').src = characterData[selectedCard.dataset.character].But;
+          selectedCard.querySelector('.button-img').src = characterData[selectedCard.dataset.character].But + '?t=' + new Date().getTime();
           selectedCard.classList.remove('selected');
         }
 
@@ -96,9 +96,9 @@ document.addEventListener('DOMContentLoaded', () => {
         headDescription.textContent = characterData[selectedCharacter].head;
         characterDescription.textContent = characterData[selectedCharacter].description;
         // Меняем картинки персонажей и элементов
-        characterImage.src = characterData[selectedCharacter].image;
+        characterImage.src = characterData[selectedCharacter].image + '?t=' + new Date().getTime();
         // Меняем кнопку на нажатую !!!!!!!!!!!!!!!!!!!!!!!!!!
-        card.querySelector('.button-img').src = characterData[selectedCharacter].useBut;
+        card.querySelector('.button-img').src = characterData[selectedCharacter].useBut + '?t=' + new Date().getTime();
         // Анимация выезжания тени у кнопки
         card.querySelector('.button-img').classList.toggle('shadow')
         // Добавляем анимацию к изображению

@@ -6,7 +6,7 @@
   .follow_dream .containers {
     background: 
       linear-gradient(to bottom, rgba(23, 25, 33, 0), rgba(23, 25, 33, 1)),
-      url('../img/blocks1.png') no-repeat center center;
+      url('../public/img/blocks1.png') no-repeat center center;
     background-size: contain;
     animation: moveBackground 3s linear infinite;
     height: 600px;

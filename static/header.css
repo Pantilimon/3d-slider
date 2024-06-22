@@ -9,13 +9,15 @@ header {
 header img {
 
   width: auto;
-  height: 8vh;
+  height: 48px;
 }
 header p {
   font-size: 24px;
+  padding: auto 10vw;
 }
 header a {
   color:black;
   text-decoration: none;
+
 }
 

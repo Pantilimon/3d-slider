@@ -1,7 +1,10 @@
 
 .position{
+  background: url('../public/img/clouds.png') center center;
+  background-size: cover;
+
   background-color: rgba(188, 209, 172, 1);
-  height: 50vw;
+  height: 600px;
   width: auto;
   display: flex;
   justify-content: center;

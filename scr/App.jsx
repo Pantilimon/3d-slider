@@ -8,13 +8,13 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-import slide_image_1 from './assets/images/1.png';
-import slide_image_2 from './assets/images/2.png';
-import slide_image_3 from './assets/images/3.png';
-import slide_image_4 from './assets/images/4.png';
-import slide_image_5 from './assets/images/5.png';
-import slide_image_6 from './assets/images/6.png';
-import slide_image_7 from './assets/images/7.png';
+import slide_image_1 from './assets/images/kurwa.jfif';
+import slide_image_2 from './assets/images/kurwa.jfif';
+import slide_image_3 from './assets/images/kurwa.jfif';
+import slide_image_4 from './assets/images/kurwa.jfif';
+import slide_image_5 from './assets/images/kurwa.jfif';
+import slide_image_6 from './assets/images/kurwa.jfif';
+import slide_image_7 from './assets/images/kurwa.jfif';
 
 function App() {
   return (
@@ -43,32 +43,45 @@ function App() {
       >
         <SwiperSlide>
           <img src={slide_image_1} alt="slide_image" />
+          <p class='text'>хуй соси 1</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_2} alt="slide_image" />
+          <p class='text'>хуй соси 2</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_3} alt="slide_image" />
+          <p class='text'>хуй соси 3</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_4} alt="slide_image" />
+          <p class='text'>хуй соси 4</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_5} alt="slide_image" />
+          <p class='text'>хуй соси 5</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_6} alt="slide_image" />
+          <p class='text'>хуй соси 6</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_7} alt="slide_image" />
+          <p class='text'>хуй соси 7</p>
         </SwiperSlide>
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline"></ion-icon>
+            <svg width="21" height="29" viewBox="0 0 21 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 4L6 14.5L17 25" stroke="#171921" stroke-width="7" stroke-linecap="round"/>
+            </svg>
+            {/* <ion-icon name="arrow-back-outline"></ion-icon> */}
           </div>
           <div className="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
+            <svg width="21" height="29" viewBox="0 0 21 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4L15 14.5L4 25" stroke="#171921" stroke-width="7" stroke-linecap="round"/>
+            </svg>
+            {/* <ion-icon name="arrow-forward-outline"></ion-icon> */}
           </div>
           <div className="swiper-pagination"></div>
         </div>

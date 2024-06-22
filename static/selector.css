@@ -173,20 +173,25 @@
    }
    #character-image {
       position: absolute;
-      height: 30vw;
+      height: 29vw;
       left: 30vw;
-      top: -5vw;
+      top: -3vw;
       z-index: 2;
    }
    .character4 #character-image {
       opacity: 1;
       left: 32vw;
    }
-   .character1 #character-image {
+   .character1 #character-image { /* Абобоа */
       opacity: 1;
-      left: 34vw;
+      left: 34.5vw;
+      height: 35vw;
+      top: -8vw;
    }
+   .character3 #character-image { /* Абобоа */
+      height: 30vw;
 
+   }
    #elements {
       position: absolute;
       z-index: 3;

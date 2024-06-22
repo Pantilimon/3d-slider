@@ -6,14 +6,15 @@
   .follow_dream .containers {
     background: 
       linear-gradient(to bottom, rgba(23, 25, 33, 0), rgba(23, 25, 33, 1)),
-      url('../public/img/blocks1.png') no-repeat center center;
-    background-size: contain;
+      url('../public/img/blocks2.png') no-repeat center center;
+    background-size: cover;
+    background-size: auto 120%; /* Размер картинки */
     animation: moveBackground 3s linear infinite;
     height: 600px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
     margin-bottom: 150px;
-    padding: 10vw 90px;
+    padding: 10vw 0px;
   }
   .follow_dream .message {
     box-sizing: border-box;

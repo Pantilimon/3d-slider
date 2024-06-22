@@ -45,14 +45,14 @@
 }
 .archer .gif{
   top: -50%;
-  left: 10%
+  left: 13%;
 }
-
 .archer .two{
   top: 50%;
   left: -15%;
   width: auto;
   height: 35%;
+  transform: scaleX(-1);
 }
 
 

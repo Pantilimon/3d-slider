@@ -139,8 +139,8 @@
   margin-right: auto;
   display: block;
   transition: background-color 0.3s ease; /* Добавляем плавный переход для изменения фона */
-  padding-top: 1%;
-  padding-bottom: 1%; 
+  padding-top: 2%;
+  padding-bottom: 2%; 
   border-radius: 50px;
   border: 0px;
   overflow: hidden;
@@ -155,12 +155,12 @@
   }
   @media (max-width: 768px) {
     .pos {
-      width: 80%;   
+      width: 70%;   
     }
   }
   @media (max-width: 576px) {
     .pos {
-      width: 100%;   
+      width: 90%;   
     }
   }
   

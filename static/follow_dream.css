@@ -36,7 +36,9 @@
   }
   @media (max-width: 576px) {
     .follow_dream .message  {
-      max-width: 400px;
+      max-width: 300px;
+      font-size: 25px;
+      /* font-weight: 40; */
     }
   }
 

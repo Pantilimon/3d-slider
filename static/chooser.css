@@ -182,7 +182,6 @@
    }
 
    .character1 #character-text{
-      background: z-index: 1;
       background-color: rgba(173, 56, 23, 1);
    }
    .character2 #character-text{

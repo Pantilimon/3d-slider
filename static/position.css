@@ -139,8 +139,8 @@
   margin-right: auto;
   display: block;
   transition: background-color 0.3s ease; /* Добавляем плавный переход для изменения фона */
-  padding-top: 2%;
-  padding-bottom: 2%; 
+  padding-top: 1%;
+  padding-bottom: 1%; 
   border-radius: 50px;
   border: 0px;
   overflow: hidden;

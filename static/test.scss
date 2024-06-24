@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Fifaks10dev1';
+    src: url('../fonts/Fifaks10dev1.woff2') format('woff2'),
+         url('../fonts/Fifaks10dev1.woff') format('woff'),
+         url('../fonts/Fifaks10dev1.ttf') format('truetype'),
+         url('../fonts/Fifaks10dev1.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
+  
+  :is(body) {
+    margin: 0;
+    font-family: 'Fifaks10dev1', sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+
+
+

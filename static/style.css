@@ -8,19 +8,12 @@
   font-style: normal;
 }
 
+@import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
+
 :is(body) {
   margin: 0;
   font-family: 'Fifaks10dev1', sans-serif;
 }
-/* div .lines {
-  margin: 0;
-  width: 100%;
-  height: 70px;
-  background-color: #171921;
-} */
-
-
-/* #elements {
-  width: 300px;
-  height: auto;
-} */
+* {
+  box-sizing: border-box;
+}

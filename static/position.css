@@ -133,25 +133,32 @@
 .pos {
   position: relative;
   text-align: center;
-  height: 50px;
-  width: 450px;
+  height: auto;   
+  width: 40%;     
   margin-left: auto;
   margin-right: auto;
   display: block;
   transition: background-color 0.3s ease; /* Добавляем плавный переход для изменения фона */
-  /* padding: 0px 0px; */
-  padding-top: 15px; 
+  padding-top: 1%;
+  padding-bottom: 1%; 
   border-radius: 50px;
   border: 0px;
-  position: relative;
   overflow: hidden;
   background-color: rgba(23, 25, 33, 1);
   }
   
+
+  @media (min-width: 992px) {
+    .position svg {
+      
+    }
+  }
   
-  .position svg {
+  .pos svg {
     position: relative;
     z-index: 1;
+    height: auto;   
+    width: 90%;     
   }
   
   .pos::after {

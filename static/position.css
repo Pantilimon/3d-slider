@@ -149,7 +149,7 @@
   }
   
 
-  @media (max-width: 992px) {
+  @media (max-width: 990px) {
     .pos {
       width: 60%;
       padding-top: 2%;
@@ -201,3 +201,5 @@
   .pos:hover svg path {
     fill:rgba(23, 25, 33, 1)
   }
+
+  

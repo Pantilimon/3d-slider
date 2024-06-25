@@ -43,31 +43,31 @@ function App() {
       >
         <SwiperSlide>
           <img src={slide_image_1} alt="slide_image" />
-          <p class='text'>хуй соси 1</p>
+          <p class='text'>1</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_2} alt="slide_image" />
-          <p class='text'>хуй соси 2</p>
+          <p class='text'>2</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_3} alt="slide_image" />
-          <p class='text'>хуй соси 3</p>
+          <p class='text'>3</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_4} alt="slide_image" />
-          <p class='text'>хуй соси 4</p>
+          <p class='text'>4</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_5} alt="slide_image" />
-          <p class='text'>хуй соси 5</p>
+          <p class='text'>5</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_6} alt="slide_image" />
-          <p class='text'>хуй соси 6</p>
+          <p class='text'>6</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_7} alt="slide_image" />
-          <p class='text'>хуй соси 7</p>
+          <p class='text'>7</p>
         </SwiperSlide>
 
         <div className="slider-controler">

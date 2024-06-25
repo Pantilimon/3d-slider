@@ -158,6 +158,13 @@ header a {
   height: 90px;
 }
 
+@media (max-width: 990px) {
+  .logo {
+    width: auto;
+    height: 40px;
+  }
+}
+
 .nav{
   display: flex;
   width: 700px;
@@ -227,7 +234,7 @@ header a {
 
 
 /* При разрешении экрана 900px и ниже, выводим на экран иконку бургера */
-@media (max-width: 900px) {
+@media (max-width: 990px) {
 
   .burger { display: flex }
 

@@ -210,7 +210,7 @@
       top: -3vw;
       z-index: 2;
       top: 50px;
-      left: 120px
+      left: 110px
    }
    @media (max-width: 990px) {
       #character-image {
@@ -222,11 +222,17 @@
    .character1 #character-image {
       height: 550px;
       top: -40px;
+      left: 150px;
+   }
+
+   .character4 #character-image {
+      left: 150px;
    }
 
    .character3 #character-image {
       height: 475px;
       top: 30px;
+      left: 80px
    }
 
    

@@ -174,7 +174,7 @@
 
    @media (max-width: 990px) {
       .image-box, .text-box {
-         height: 250px;
+         height: 150px;
       }
    }
    .text-box {
@@ -219,6 +219,12 @@
    @media (max-width: 990px) {
       #bord {
          height: 240px;
+      }   
+   }
+
+   @media (max-width: 400px) {
+      #bord {
+         height: 350px;
       }   
    }
 

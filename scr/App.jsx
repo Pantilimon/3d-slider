@@ -19,7 +19,7 @@ import slide_image_7 from './assets/images/kurwa.jfif';
 function App() {
   return (
     <div className="container1">
-      <h1 className="heading">Новости</h1>
+      <h1 className="heading">События</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

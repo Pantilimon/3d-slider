@@ -1,14 +1,15 @@
-/* Стили для футера */
 footer {
     background-color: #171921;
     color: white;
-    padding: 0 0;
+    padding: 0px;
+    margin: 0px;
   }
   
   .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     max-width: 80vw;
     margin: 0 auto;
     padding: 0 20px;
@@ -18,11 +19,12 @@ footer {
   .footer-nav {
     display: flex;
     gap: 20px;
-    
+    list-style: none;
   }
   
   .footer-nav a {
     color: white;
+    text-decoration: none;
     text-decoration: none;
   
   }

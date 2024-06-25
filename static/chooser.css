@@ -183,24 +183,6 @@
       }
    }
 
-
-
-
-
-
-
-
-
-
-   
-    /* diamond-panel */
-    
-
-
-   /* .text-box, .diamond-box, .image-box {
-      position: relative;
-   } */
-
    .image-box, .text-box {
       position: relative;
       height: 500px;
@@ -298,8 +280,8 @@
       }
       
       .character1 .image-box #character-image {
-         left: 50px;
-         top: -50px;
+         left: 25x;
+         top: 17;
       }
       .character3 .image-box #character-image {
          top: 50px;
@@ -307,7 +289,7 @@
       }
       .character4 .image-box #character-image {
          top: 50px;
-         left: 60px;
+         left: 30px;
       }
    }
 

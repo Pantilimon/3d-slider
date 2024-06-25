@@ -292,6 +292,25 @@
       top: 50px;
       left: 110px
    }
+   @media (max-width: 1200px) {
+      #character-image {
+         left: 20px;
+      }
+      
+      .character1 .image-box #character-image {
+         left: 50px;
+         top: -50px;
+      }
+      .character3 .image-box #character-image {
+         top: 50px;
+         left: 0px
+      }
+      .character4 .image-box #character-image {
+         top: 50px;
+         left: 60px;
+      }
+   }
+
    @media (max-width: 990px) {
       #character-image {
          left: 0px;

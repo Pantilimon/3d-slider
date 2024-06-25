@@ -55,11 +55,11 @@
    }
    @media (max-width: 960px) {
       .character-card img{
-         height: 30px;
+         height: 40px;
          width: auto;
       }
       .character-card {
-         font-size: 15px;
+         font-size: 20px;
       }
    }
 
@@ -173,10 +173,10 @@
 
    @media (max-width: 960px) {
       #head-description {
-         font-size: 40px;
+         font-size: 30px;
       }
       #character-text{
-         font-size: 30px;;
+         font-size: 22px;;
       }
    }
    

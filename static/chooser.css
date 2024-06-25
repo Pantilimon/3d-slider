@@ -25,7 +25,7 @@
    height: 900px;
 
    @media (max-width: 990px) {
-      height: 1200px;
+      height: 1000px;
    }  
    
    /* Анимации */
@@ -43,7 +43,6 @@
       text-align: center;
    }
    .character-panel {
-      /* margin: auto 20vw; */
       display: flex;
       justify-content: center;
       justify-content: space-around;
@@ -95,6 +94,20 @@
       height: 120px; /* Высота большего ромба */
       transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
    }
+   @media (max-width: 990px) {
+      .diamond-panel {
+         width: 100px; /* Ширина большего ромба */
+         height: 100px; /* Высота боьшего ромба */
+         margin-top: 80px;  
+         margin-left: 60px;
+      }
+      .diamond-btn {
+         width: 80px; /* Ширина большего ромба */
+         height: 80px; /* Высота большего ромба */
+      }
+   }
+
+
    .btn1 {
       top: 0;
       left: 50%;
@@ -158,12 +171,17 @@
       position: relative;
       height: 500px;
    }
+
+   @media (max-width: 990px) {
+      .image-box, .text-box {
+         height: 250px;
+      }
+   }
    .text-box {
       padding-top: 150px;
    }
    .image-box img{
       position: absolute;
-      height: 500px;
    }
 
    #head-description {
@@ -214,27 +232,38 @@
    }
    @media (max-width: 990px) {
       #character-image {
+         left: 0px;
+         height: 300px;
+      }
+      
+      .character1 #character-image {
+         height: 275px;
+         left: -100px;
+      }
+      .character3 #character-image {
+         height: 225px;
+         top: 30px;
          left: 0px
-      }   
+      }
    }
 
+   @media (min-width: 990px){
+      .character1 #character-image {
+         height: 550px;
+         top: -40px;
+         left: 150px;
+      }
 
-   .character1 #character-image {
-      height: 550px;
-      top: -40px;
-      left: 150px;
+      .character4 #character-image {
+         left: 150px;
+      }
+
+      .character3 #character-image {
+         height: 475px;
+         top: 30px;
+         left: 80px
+      }
    }
-
-   .character4 #character-image {
-      left: 150px;
-   }
-
-   .character3 #character-image {
-      height: 475px;
-      top: 30px;
-      left: 80px
-   }
-
    
    
    .character1 #bord{

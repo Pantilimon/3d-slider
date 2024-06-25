@@ -35,7 +35,7 @@
     /* Панель кнопок */
    
    .сhooser_header {
-      font-size: 3vw;
+      font-size: 36px;
       text-align: center;
    }
    .character-panel {
@@ -173,10 +173,10 @@
 
    @media (max-width: 960px) {
       #head-description {
-         font-size: 15px;
+         font-size: 40px;
       }
       #character-text{
-         font-size: 13px;;
+         font-size: 30px;;
       }
    }
    

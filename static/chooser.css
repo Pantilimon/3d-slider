@@ -212,6 +212,7 @@
    @media (max-width: 500px) {
       #head-description {
          font-size: 30px;
+         margin: 5px;
       }
       #character-text{
          font-size: 22px;;
@@ -229,14 +230,21 @@
 
    @media (max-width: 990px) {
       #bord {
-         height: 240px;
-      }   
-   }
-
-   @media (max-width: 400px) {
-      #bord {
-         height: 370px;
-      }   
+         display: none;
+      }
+      .character1 #character-text{
+         background-color: rgba(173, 56, 23, 1);
+         border-radius: 25px;
+      }
+      .character2 #character-text{
+         background-color: rgba(97, 140, 163, 1);
+      }
+      .character3 #character-text{
+         background-color: rgba(125, 121, 112, 1);
+      }
+      .character4 #character-text{
+         background-color: rgba(188, 209, 172, 1);
+      }
    }
 
    #character-image {

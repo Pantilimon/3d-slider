@@ -159,6 +159,40 @@
    .btn4.active path{
       fill: rgba(97, 140, 163, 1);
    }
+
+
+   @media (max-width: 990px) {
+      .btn4.active {
+         transform: scale(1.6);
+         filter: drop-shadow(0.2em 0 0 black);
+      }
+      .btn3.active {
+         transform: scale(1.6);
+         filter: drop-shadow(0 -0.2em 0 black);
+      }
+      .btn2.active {
+         transform: scale(1.5);
+         filter: drop-shadow(-0.2em 0 0 black) ;
+      }
+      .btn1.active{
+         transform: scale(1.6);
+         filter: drop-shadow(0 0.2em 0 black);
+      }
+      .button-img.shadow{
+         filter: drop-shadow(0px 0.185em 0 black);
+      }
+   }
+
+
+
+
+
+
+
+
+
+
+   
     /* diamond-panel */
     
 
@@ -238,12 +272,15 @@
       }
       .character2 #character-text{
          background-color: rgba(97, 140, 163, 1);
+         border-radius: 25px;
       }
       .character3 #character-text{
          background-color: rgba(125, 121, 112, 1);
+         border-radius: 25px;
       }
       .character4 #character-text{
          background-color: rgba(188, 209, 172, 1);
+         border-radius: 25px;
       }
    }
 

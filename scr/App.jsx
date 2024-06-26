@@ -72,16 +72,15 @@ function App() {
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
-            <svg width="21" height="29" viewBox="0 0 21 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17 4L6 14.5L17 25" stroke="#171921" stroke-width="7" stroke-linecap="round"/>
-            </svg>
-            {/* <ion-icon name="arrow-back-outline"></ion-icon> */}
+          <svg width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 2L3 12.5L14 23" stroke="#171921" stroke-width="4" stroke-linecap="round"/>
+          </svg>
           </div>
           <div className="swiper-button-next slider-arrow">
-            <svg width="21" height="29" viewBox="0 0 21 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 4L15 14.5L4 25" stroke="#171921" stroke-width="7" stroke-linecap="round"/>
-            </svg>
-            {/* <ion-icon name="arrow-forward-outline"></ion-icon> */}
+          <svg width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 2L13 12.5L2 23" stroke="#171921" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+
           </div>
           <div className="swiper-pagination"></div>
         </div>

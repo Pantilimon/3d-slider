@@ -43,7 +43,7 @@
   .follow_dream .message p{
     box-sizing: border-box;
     font-size: 30px;
-    font-weight: 40;
+    /* font-weight: 40; */
     margin-top: 10px;
     margin-bottom: 30px;
   }
@@ -51,7 +51,7 @@
   .follow_dream .message h1{
     margin-bottom: 0;
     font-size: 55px;
-    font-weight: 1;
+    font-weight: 10%;
     margin-top: 270px; 
   }
   

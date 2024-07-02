@@ -4,6 +4,24 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "DotGothic16-Regular";
+  src: url("../fonts/DotGothic16-Regular.woff2") format("woff2"), url("../fonts/DotGothic16-Regular.woff") format("woff"), url("../fonts/DotGothic16-Regular.ttf") format("truetype"), url("../fonts/DotGothic16-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Handjet-Medium";
+  src: url("../fonts/Handjet-Medium.woff2") format("woff2"), url("../fonts/Handjet-Medium.woff") format("woff"), url("../fonts/Handjet-Medium.ttf") format("truetype"), url("../fonts/Handjet-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PixelifySans-Medium";
+  src: url("../fonts/PixelifySans-Medium.woff2") format("woff2"), url("../fonts/PixelifySans-Medium.woff") format("woff"), url("../fonts/PixelifySans-Medium.ttf") format("truetype"), url("../fonts/PixelifySans-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 /*!
  * Bootstrap Grid v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -4088,9 +4106,9 @@
   }
 }
 :is(body) {
-  overflow-x: hidden;
   margin: 0;
-  font-family: "Fifaks10dev1", sans-serif;
+  font-family: "Fifaks10dev1", "DotGothic16-Regular", "Handjet-Medium", "PixelifySans-Medium";
+  overflow-x: hidden;
 }
 
 * {

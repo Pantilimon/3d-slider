@@ -4107,8 +4107,8 @@
 }
 :is(body) {
   margin: 0;
-  /* font-family: "DotGothic16-Regular", "PixelifySans-Medium"; */
-  /* overflow-x: hidden; */
+  font-family: 'Fifaks10dev1', "Handjet-Medium", "DotGothic16-Regular", "PixelifySans-Medium";
+  overflow-x: hidden;
 }
 
 * {

@@ -93,11 +93,16 @@
       height: 36rem !important;
     }
     .swiper-slide img {
-      width: auto !important;
-      height: 90vw !important;
+      width: 28rem !important;
+      height: 36rem !important;
     }
   }
-  
+  @media (max-width: 400px) {
+    .swiper-slide img {
+      width: 23.3rem !important;
+      height: 30rem !important;
+    }
+  }
   .text {
     margin-top: 50px;
     margin-bottom: 50px;

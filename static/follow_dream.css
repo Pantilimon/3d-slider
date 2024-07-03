@@ -6,9 +6,9 @@
   .follow_dream .containers_img {
     background: 
       linear-gradient(to bottom, rgba(23, 25, 33, 0), rgba(23, 25, 33, 1)),
-      url('../public/img/blocks2.png') no-repeat center center;
+      url('../public/img/12.png') no-repeat center center;
     background-size: cover;
-    background-size: auto 125%; /* Размер картинки */
+    background-size: auto 75%; /* Размер картинки */
     animation: moveBackground 3s linear infinite;
     height: 800px; 
     margin-left: 0%;

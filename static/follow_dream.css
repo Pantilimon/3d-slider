@@ -8,9 +8,9 @@
       linear-gradient(to bottom, rgba(23, 25, 33, 0), rgba(23, 25, 33, 1)),
       url('../public/img/12.png') no-repeat center center;
     background-size: cover;
-    background-size: auto 75%; /* Размер картинки */
+    background-size: auto 85%; /* Размер картинки */
     animation: moveBackground 3s linear infinite;
-    height: 800px; 
+    height: 700px; 
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 300px;
@@ -21,7 +21,8 @@
     padding-right: 0px;
   }
   .follow_dream .message {
-    padding-top: 600px;
+    font-size: 30px;
+    padding-top: 350px;
     box-sizing: border-box;
     color: white;
     margin-left: auto;
@@ -33,14 +34,23 @@
   @media (max-width: 768px) {
     .follow_dream .message  {
       max-width: 450px;
-      padding-top: 500px;
+    }
+    .follow_dream .containers_img {
+      background-size: auto 75%;
+    }
+    .follow_dream .message {
+      font-size: 20px;
     }
   }
   @media (max-width: 576px) {
     .follow_dream .message  {
-      padding-top: 500px;
       max-width: 350px;
-      font-size: 25px;
+    }
+    .follow_dream .containers_img {
+      background-size: auto 65%;
+    }
+    .follow_dream .message {
+      font-size: 20px;
     }
   }
 
@@ -49,16 +59,13 @@
   
   .follow_dream .message p{
     box-sizing: border-box;
-    font-size: 30px;
-    /* font-weight: 40; */
     margin-top: 10px;
     margin-bottom: 30px;
   }
   
   .follow_dream .message h1{
     margin-bottom: 0;
-    font-size: 55px;
-    font-weight: 10%;
+    font-weight: 1;
   }
   
 /* Кнопка */

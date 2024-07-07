@@ -94,10 +94,16 @@
     .swiper-slide img {
       height: 80%;
     }
+    .container1 {
+      max-width: 98vw;
+    }
   }
   @media (max-width: 576px) {
     .swiper-slide img {
       height: 45%;
+    }
+    .container1 {
+      max-width: 98vw;
     }
   }
 

@@ -61,7 +61,7 @@
   }
 
   .container1 {
-    max-width: 124rem;
+    max-width: 90vw;
     padding: 4rem 1rem;
     margin: auto auto;
   }
@@ -71,50 +71,42 @@
     font-size: 3.5rem;
     text-align: center;
   }
-
-  .swiper_container {
-    height: 52rem;
+  /* сам свайпер */
+  .swiper_container { 
+    height: 880px;
     padding: 2rem 0;
     position: relative;
   }
 
   .swiper-slide {
-    width: 37rem;
-    height: 42rem;
+    width: auto;
+    height: 90%;
     position: relative;
   }
- 
-  @media (max-width: 500px) {
-    .swiper_container {
-      height: 47rem;
-    }
-    .swiper-slide {
-      width: 28rem !important;
-      height: 36rem !important;
-    }
+  .swiper-slide img {
+    /* width: 37rem; */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+  }
+
+  @media (max-width: 992px) {
     .swiper-slide img {
-      width: 28rem !important;
-      height: 36rem !important;
+      height: 80%;
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 576px) {
     .swiper-slide img {
-      width: 23.3rem !important;
-      height: 30rem !important;
+      height: 40%;
     }
   }
+
   .text {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     font-size: 30px;
     font-weight: 40;
-  }
-  .swiper-slide img {
-    width: 37rem;
-    height: 42rem;
-    object-fit: cover;
-    border-radius: 40px;
   }
 
 

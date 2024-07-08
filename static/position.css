@@ -14,8 +14,8 @@
 
 .bl {
   position: absolute;
-  height: 180px;
-  width: 350px;
+  width: 20%;
+  height: auto;
 }
 .cont {
   position: relative;
@@ -28,26 +28,35 @@
 }
 
 .graund {
-  left: 73px;
-  top: 36px;
   width: auto;
-  height: 120px;
+  height: 60%;
 }
 
 .gif{
   z-index: 1;
   width: auto;
-  height: 100%;
-
+  
 }
 .archer {
+  width: 20%;
+  height: 20%;
   top: 17%;
   left: 25%
 }
 .archer .gif{
-  top: -50%;
+  top: -100px;
   left: 13%;
+  height: 100%;
+  left: 48px;
 }
+.archer .one{
+  left: 73px;
+  top: 25px;
+  width: auto;
+  height: 60%;
+  transform: scaleX(-1);
+}
+
 .archer .two{
   top: 50%;
   left: -15%;
@@ -57,6 +66,7 @@
 }
 
 
+
 .wizard {
   width: 20%;
   height: 20%;
@@ -64,12 +74,18 @@
   left: 15%;
 }
 .wizard .gif {
-  bottom: 50%;
-  left: 13%;
+  bottom: 140px;
+  left: 55px;
+  height: 100%;
+}
+.wizard .one {
+  left: 85px;
+  bottom: 90px;
+  width: auto;
 }
 .wizard .two {
   left: 65%;
-  top: 6%;
+  top: 80px;
   width: auto;
   height: 40%;
 }
@@ -83,10 +99,14 @@
 }
 .shieldman .gif {
   width: auto;
-  height: 90%;
-  top: -40%;
-  left: 14%;
+  top: -90px;
+  left: 60px;
   transform: scaleX(-1);
+  height: 95%;
+}
+.shieldman .one {
+  top: 30px;
+  left: 80px;
 }
 .shieldman .two {
   top: 70%;
@@ -110,21 +130,66 @@
 }
 .swordsman .gif {
   transform: scaleX(-1);
-  bottom: 53%;
-  right: 38%;
+  top: -70px;
+  left: 0px;
+  height: 120%;
   
+}
+.swordsman .one {
+  top: 95px;
+  left: 50px;
 }
 .swordsman .two {
   top: 37%;
-  left: -1%;
+  left: -10%;
   width: auto;
   height: 25%;
 }
 .swordsman .three {
   top: 1%;
-  left: 65%;
+  left: 60%;
   width: auto;
   height: 30%;
+}
+
+@media (max-width: 576px) {
+  .archer .gif{
+    left: -50px;
+  }
+  .archer .one{
+    left: -29px;
+  }
+  .archer .two{
+    left: -100px;
+  }
+  
+  .wizard .gif {
+    left: -50px;
+    /* bottom: 140px; */
+  }
+  .wizard .one {
+    left: -20px;
+    bottom: 90px;
+  }
+  .shieldman .gif {
+    left: -20px;
+    transform: scaleX(-1);
+  }
+  .shieldman .one {
+    left: 0px;
+  }
+  .shieldman .two {
+    left: -100px;
+  }
+  
+} 
+@media (max-width: 992px) {
+  .wizard .gif {
+    bottom: 20px;
+  }
+  .wizard .one {
+    bottom: -30px;
+  }
 }
 
 
@@ -147,7 +212,7 @@
   }
   
 
-  @media (max-width: 990px) {
+  @media (max-width: 992px) {
     .pos {
       width: 60%;
       padding-top: 2%;

@@ -14,8 +14,8 @@
 
 .bl {
   position: absolute;
-  width: 20%;
-  height: auto;
+  height: 180px;
+  width: 350px;
 }
 .cont {
   position: relative;
@@ -28,10 +28,10 @@
 }
 
 .graund {
-  left: 20%;
-  top: 20%;
+  left: 73px;
+  top: 36px;
   width: auto;
-  height: 60%;
+  height: 120px;
 }
 
 .gif{
@@ -41,8 +41,6 @@
 
 }
 .archer {
-  width: 20%;
-  height: 20%;
   top: 17%;
   left: 25%
 }

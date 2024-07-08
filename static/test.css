@@ -4107,7 +4107,7 @@
 }
 :is(body) {
   margin: 0;
-  font-family: 'Fifaks10dev1', "Handjet-Medium", "DotGothic16-Regular", "PixelifySans-Medium";
+  font-family: "Handjet-Medium", "DotGothic16-Regular", "PixelifySans-Medium";
   overflow-x: hidden;
 }
 

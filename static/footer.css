@@ -24,8 +24,8 @@ footer {
   .footer-nav a {
     color: white;
     text-decoration: none;
-  
   }
+
   
   .footer-nav a:hover {
     text-decoration: underline;
@@ -46,20 +46,44 @@ footer {
     font-size: 25px;
   }
 
-  footer img {
+  /* footer img {
+    width: 30px;
+    height: auto;
+  } */
+  .tg {
+    width: 23px;
+    height: auto;
+  }
+  .vk {
+    width: 30px;
+    height: auto;
+  }
+  .footer-nav .yt {
     width: 30px;
     height: auto;
   }
 
   @media (max-width: 990px) {
-    footer img {
+    /* footer img {
       width: 20px;
       height: auto;
-    }
+    } */
     .cop {
       font-size: 15px;
     }
     .footer-content {
       font-size: 15px;
+    }
+    .footer-nav .tg {
+      width: 15px;
+      height: auto;
+    }
+    .footer-nav .vk {
+      width: 20px;
+      height: auto;
+    }
+    .footer-nav .yt {
+      width: 20px;
+      height: auto;
     }
   }

@@ -100,12 +100,20 @@
   }
   @media (max-width: 576px) {
     .swiper-slide img {
-      height: 35%;
+      width: 255px;
+      height: auto;
     }
     .container1 {
       max-width: 100vw;
     }
-  }
+    .swiper-slide {
+      width: 255px;
+      height: 300px;
+    }
+    .swiper_container { 
+      height: 500px;
+    }
+}
 
   .text {
     margin-top: 30px;
@@ -128,6 +136,7 @@
     align-items: center;
     justify-content: center;
     top: 2.7%;
+    height: 30;
   }
 
   .slider-controler .swiper-button-next {

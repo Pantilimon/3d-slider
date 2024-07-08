@@ -151,6 +151,11 @@
   width: auto;
   height: 30%;
 }
+@media (max-width: 992px) {
+  .wizard .two {
+    display: none;
+}
+}
 
 @media (max-width: 576px) {
   .archer .gif{
@@ -171,6 +176,7 @@
     left: -20px;
     bottom: 90px;
   }
+
   .shieldman .gif {
     left: -20px;
     transform: scaleX(-1);

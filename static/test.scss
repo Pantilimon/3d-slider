@@ -34,6 +34,15 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/PixelifySans-Medium.woff2') format('woff2'),
+         url('../fonts/PixelifySans-Medium.woff') format('woff'),
+         url('../fonts/PixelifySans-Medium.ttf') format('truetype'),
+         url('../fonts/PixelifySans-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
   
   @import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
   

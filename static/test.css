@@ -22,6 +22,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Rubik";
+  src: url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*!
  * Bootstrap Grid v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors

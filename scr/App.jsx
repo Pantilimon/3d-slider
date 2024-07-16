@@ -8,12 +8,12 @@ import 'swiper/css/navigation';
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 
-import slide_image_1 from './assets/images/kurwa.jfif';
-import slide_image_2 from './assets/images/kurwa.jfif';
-import slide_image_3 from './assets/images/kurwa.jfif';
-import slide_image_4 from './assets/images/kurwa.jfif';
-import slide_image_5 from './assets/images/kurwa.jfif';
-import slide_image_6 from './assets/images/kurwa.jfif';
+import slide_image_1 from './assets/images/Union2.png';
+import slide_image_2 from './assets/images/Union2.png';
+import slide_image_3 from './assets/images/Union2.png';
+import slide_image_4 from './assets/images/Union2.png';
+import slide_image_5 from './assets/images/Union2.png';
+import slide_image_6 from './assets/images/game.jfif';
 import slide_image_7 from './assets/images/kurwa.jfif';
 
 function App() {

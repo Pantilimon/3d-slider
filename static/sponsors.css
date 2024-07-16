@@ -1,4 +1,4 @@
-.sponsors, .organizers {
+.sponsors {
     text-align: center;
     background-color: #171921;
     color: white;
@@ -28,7 +28,7 @@
         height: auto;
     }
     .block .pad .Min {
-        width: 60%;
+        width: 18%;
         margin-left: auto;
         margin-right: auto;
     }

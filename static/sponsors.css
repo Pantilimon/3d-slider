@@ -23,6 +23,12 @@
             height: 30%;
         }
     }
+    @media (min-width: 992px) {
+        .block .pad {
+            width: 100%;
+            height: 30%;
+        }
+    }
     .block .pad img {
         width: 80%;
         height: auto;
@@ -35,7 +41,7 @@
     .link {
         color: rgba(176, 194, 255, 1);
         text-decoration: none;
-        margin-top: 16px;
+        margin-top: 30px;
         margin-bottom: 0px;
     }
     .link:hover {

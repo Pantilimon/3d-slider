@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedCard.querySelector('.button-img').classList.toggle('shadow')
         selectedCard.classList.remove('selected');
         headDescription.textContent = '';   //Общая информация
-        characterDescription.textContent = 'В команде может быть до четырёх человек. Каждый из вас отвечает за определённую стихию, с которой вы можете ознакомиться здесь. Скорее делайте свой выбор, он повлияет на ваш дальнейший путь.';
+        characterDescription.textContent = 'В команде может быть от одного до четырёх человек. Каждый из участников отвечает за определённую стихию, с которой можно ознакомиться здесь. Скорее делайте свой выбор, он повлияет на ваш дальнейший путь.';
         characterInfo.className = 'character-info';
         characterDescription.className = 'character-description';
         selectedCard = null;

@@ -1,54 +1,55 @@
-@font-face {
-    font-family: 'Fifaks10dev1';
-    src: url('../fonts/Fifaks10dev1.woff2') format('woff2'),
-         url('../fonts/Fifaks10dev1.woff') format('woff'),
-         url('../fonts/Fifaks10dev1.ttf') format('truetype'),
-         url('../fonts/Fifaks10dev1.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'DotGothic16-Regular';
-    src: url('../fonts/DotGothic16-Regular.woff2') format('woff2'),
-         url('../fonts/DotGothic16-Regular.woff') format('woff'),
-         url('../fonts/DotGothic16-Regular.ttf') format('truetype'),
-         url('../fonts/DotGothic16-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Handjet-Medium';
-    src: url('../fonts/Handjet-Medium.woff2') format('woff2'),
-         url('../fonts/Handjet-Medium.woff') format('woff'),
-         url('../fonts/Handjet-Medium.ttf') format('truetype'),
-         url('../fonts/Handjet-Medium.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'PixelifySans-Medium';
-    src: url('../fonts/PixelifySans-Medium.woff2') format('woff2'),
-         url('../fonts/PixelifySans-Medium.woff') format('woff'),
-         url('../fonts/PixelifySans-Medium.ttf') format('truetype'),
-         url('../fonts/PixelifySans-Medium.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Rubik';
-    src: url('../fonts/PixelifySans-Medium.woff2') format('woff2'),
-         url('../fonts/PixelifySans-Medium.woff') format('woff'),
-         url('../fonts/PixelifySans-Medium.ttf') format('truetype'),
-         url('../fonts/PixelifySans-Medium.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
+// @font-face {
+//     font-family: 'Fifaks10dev1';
+//     src: url('../fonts/Fifaks10dev1.woff2') format('woff2'),
+//          url('../fonts/Fifaks10dev1.woff') format('woff'),
+//          url('../fonts/Fifaks10dev1.ttf') format('truetype'),
+//          url('../fonts/Fifaks10dev1.otf') format('opentype');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+//   @font-face {
+//     font-family: 'DotGothic16-Regular';
+//     src: url('../fonts/DotGothic16-Regular.woff2') format('woff2'),
+//          url('../fonts/DotGothic16-Regular.woff') format('woff'),
+//          url('../fonts/DotGothic16-Regular.ttf') format('truetype'),
+//          url('../fonts/DotGothic16-Regular.otf') format('opentype');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+//   @font-face {
+//     font-family: 'Handjet-Medium';
+//     src: url('../fonts/Handjet-Medium.woff2') format('woff2'),
+//          url('../fonts/Handjet-Medium.woff') format('woff'),
+//          url('../fonts/Handjet-Medium.ttf') format('truetype'),
+//          url('../fonts/Handjet-Medium.otf') format('opentype');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+//   @font-face {
+//     font-family: 'PixelifySans-Medium';
+//     src: url('../fonts/PixelifySans-Medium.woff2') format('woff2'),
+//          url('../fonts/PixelifySans-Medium.woff') format('woff'),
+//          url('../fonts/PixelifySans-Medium.ttf') format('truetype'),
+//          url('../fonts/PixelifySans-Medium.otf') format('opentype');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+//   @font-face {
+//     font-family: 'Rubik';
+//     src: url('../fonts/PixelifySans-Medium.woff2') format('woff2'),
+//          url('../fonts/PixelifySans-Medium.woff') format('woff'),
+//          url('../fonts/PixelifySans-Medium.ttf') format('truetype'),
+//          url('../fonts/PixelifySans-Medium.otf') format('opentype');
+//     font-weight: normal;
+//     font-style: normal;
+//   }
   
   @import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
   
+  
   :is(body) {
     margin: 0;
-    font-family: 'Fifaks10dev1', "Handjet-Medium", "DotGothic16-Regular", "PixelifySans-Medium";
+    font-family:"Rubik";
     overflow-x: hidden;
   }
   * {

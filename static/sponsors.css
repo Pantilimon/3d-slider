@@ -49,13 +49,23 @@
     }
     .block .pad #gigaschool {
         margin-top: 10px;
-        width: 80%;
+        width: 70%;
         height: auto;
     }
 
     .block .pad #infiniti {
         margin-top: 10px;
         width: 40%;
+        height: auto;
+    }
+    .block .pad #finiki {
+        margin-top: 10px;
+        width: 40%;
+        height: auto;
+    }
+    .block .pad #ironhends {
+        margin-top: 10px;
+        width: 70%;
         height: auto;
     }
 }

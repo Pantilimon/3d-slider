@@ -62,12 +62,16 @@ function App() {
           <p class='text'>5</p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_6} alt="slide_image" />
-          <p class='text'>6</p>
+          <a href="https://t.me/unlock_it/118">
+            <img src={slide_image_6} alt="slide_image" />
+          </a>
+          <p class='text'>Воркшопы GameDev</p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_7} alt="slide_image" />
-          <p class='text'>7</p>
+          <a href="https://t.me/unlock_it/85">
+            <img src={slide_image_7} alt="slide_image" />
+          </a>
+          <p class='text'>Анонс</p>
         </SwiperSlide>
 
         <div className="slider-controler">

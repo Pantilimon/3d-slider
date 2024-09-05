@@ -65,14 +65,14 @@ function App() {
           <img src={slide_image_3} alt="slide_image" />
           <p class='text'>???</p>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src={slide_image_4} alt="slide_image" />
           <p class='text'>???</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_5} alt="slide_image" />
           <p class='text'>???</p>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
 
         <div className="slider-controler">

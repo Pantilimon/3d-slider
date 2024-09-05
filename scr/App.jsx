@@ -42,26 +42,6 @@ function App() {
         className="swiper_container"
       >
         <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
-          <p class='text'>1</p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" />
-          <p class='text'>2</p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" />
-          <p class='text'>3</p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_4} alt="slide_image" />
-          <p class='text'>4</p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_5} alt="slide_image" />
-          <p class='text'>5</p>
-        </SwiperSlide>
-        <SwiperSlide>
           <a href="https://t.me/unlock_it/118">
             <img src={slide_image_6} alt="slide_image" />
           </a>
@@ -73,6 +53,27 @@ function App() {
           </a>
           <p class='text'>Анонс</p>
         </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_1} alt="slide_image" />
+          <p class='text'>???</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_2} alt="slide_image" />
+          <p class='text'>???</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_3} alt="slide_image" />
+          <p class='text'>???</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_4} alt="slide_image" />
+          <p class='text'>???</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide_image_5} alt="slide_image" />
+          <p class='text'>???</p>
+        </SwiperSlide>
+
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">

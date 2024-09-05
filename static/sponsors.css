@@ -70,21 +70,21 @@
     }
 
     .block .pad #school {
-        margin-top: -30x;
+        margin-top: 0x;
         width: auto;
         height: 180px;
     }
 
     @media (min-width: 992px) {
         .block .pad #school {
-            margin-top: -40px !important;
+            margin-top: -35px !important;
             width: auto;
-            height: 180px;
+            height: 150px;
         }
     }
     @media (max-width: 992px) {
         #school_link {
-            margin: 10px;
+            margin: 0px;
         }
     }
 }

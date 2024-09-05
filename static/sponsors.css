@@ -48,7 +48,7 @@
         height: auto;
     }
     .block .pad #gigaschool {
-        margin-top: 10px;
+        margin-top: 30px;
         width: 70%;
         height: auto;
     }
@@ -67,5 +67,24 @@
         margin-top: 10px;
         width: 70%;
         height: auto;
+    }
+
+    .block .pad #school {
+        margin-top: -30x;
+        width: auto;
+        height: 180px;
+    }
+
+    @media (min-width: 992px) {
+        .block .pad #school {
+            margin-top: -40px !important;
+            width: auto;
+            height: 180px;
+        }
+    }
+    @media (max-width: 992px) {
+        #school_link {
+            margin: 10px;
+        }
     }
 }

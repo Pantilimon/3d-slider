@@ -74,6 +74,16 @@
         width: auto;
         height: 180px;
     }
+    .block .pad #start_game {
+        margin-top: 0x;
+        width: auto;
+        height: 70px;
+    }
+    .block .pad #netologia {
+        margin-top: 10px;
+        width: 80%;;
+        height: auto;
+    }
 
     @media (min-width: 992px) {
         .block .pad #school {

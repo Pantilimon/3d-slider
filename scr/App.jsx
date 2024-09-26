@@ -70,7 +70,7 @@ function App() {
           <a href="https://t.me/unlock_it/181">
             <img src={slide_image_5} alt="slide_image" />
           </a>
-          <p class='text'>Расписание</p>
+          <p class='text'>Программа марафона</p>
         </SwiperSlide>
         {/* <SwiperSlide>
           <a href="">

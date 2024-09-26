@@ -12,7 +12,7 @@ import slide_image_1 from './assets/images/kurwa.jfif';
 import slide_image_2 from './assets/images/game.jfif';
 import slide_image_3 from './assets/images/start_reg.jfif';
 import slide_image_4 from './assets/images/concept.png';
-import slide_image_5 from './assets/images/Union2.png';
+import slide_image_5 from './assets/images/rules.jpg';
 import slide_image_6 from './assets/images/Union2.png';
 import slide_image_7 from './assets/images/Union2.png';
 
@@ -21,7 +21,7 @@ function App() {
     <div className="container1">
       <h1 className="heading">События</h1>
       <Swiper
-        initialSlide={1}
+        initialSlide={2}
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
@@ -67,10 +67,10 @@ function App() {
           <p class='text'>Концепты</p>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="">
+          <a href="https://t.me/unlock_it/181">
             <img src={slide_image_5} alt="slide_image" />
           </a>
-          <p class='text'>???</p>
+          <p class='text'>Расписание</p>
         </SwiperSlide>
         {/* <SwiperSlide>
           <a href="">

@@ -93,7 +93,14 @@
     }
     .block .pad #RuStore {
         margin-top: 10px;
-
+    }
+    .block .pad #lapochka {
+        margin-top: 15px;
+    }
+    .block .pad #susu {
+        margin-top: -10px;
+        width: 35%;
+        height: auto;
     }
 
     
